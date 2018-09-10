@@ -1,0 +1,187 @@
+body {
+		font-family: "Noto Sans Japanese", san-serif;
+		font-weight: 300;
+		background-color: #4C586A;
+}
+
+*{
+		text-decoration: none;
+		color: #F5F4F2;
+}
+
+
+.pageContainer{
+		max-width: 1000px;
+		min-width: 300px;
+		margin: auto;
+		overflow: hidden;
+}
+
+.header{
+		text-align: left;
+		color: #F5F4F2;
+		font-size: 3em;
+		font-weight: 200;
+		margin: 2.5em/*up*/ 1.5em 0.5em/*down*/ 1.5em;
+}
+
+/* main nav bar */
+
+.mainNav{
+		overflow: hidden;
+}
+
+.mainNav ul{
+		margin: 0;
+}
+
+.mainNav li{
+		float: left;
+		list-style-type: none;
+}
+
+.mainNav li a{
+		border-radius:1.5em;
+		width: 8em;
+		padding: 0.5em/*up*/ 0 0.5em/*down*/ 0;
+		text-align: center;
+		display: block;
+}
+
+.mainNav li.now a {
+		background-color: #F5F4F2;
+		color: #4C586A;
+}
+
+.mainNav li a:hover {
+		background-color: #F5F4F2;
+		color: #4C586A;
+}
+
+/* sub nav bar */
+
+.subNav{
+		overflow: hidden;
+		margin: 0;
+		overflow: hidden;
+		line-height: 1.5em;
+}
+
+.subNav ul{
+		margin: 0;
+}
+
+.subNav li{
+		float: left;
+		list-style-type: none;
+}
+
+.subNav li a{
+		text-align: left;
+		padding: 0/*up*/ 1.25em 0/*down*/ 0;
+		color: #CA6A76;
+}
+
+.subNav a::before {
+		content: "> ";
+}
+
+.subNav li a:hover {
+		color: #4C586A;
+}
+
+/* page blocks */
+
+.contentBlock{
+		margin: 1em 5em 1em 5em;
+		padding: 1em 2em 1em 2em;
+		border-radius:3em;
+		background-color: #F5F4F2;
+}
+
+.blockTitle{
+		margin: 0/*up*/ 0 0/*down*/ 0;
+		text-align: center;
+		font-size: 1.3em;
+		font-weight: 300;
+		color: #4C586A;
+}
+
+.blockSubTitle{
+		margin: 1em/*up*/ 0 0/*down*/ 0;
+		text-align: left;
+		font-size: 1em;
+		line-height: 1.2em;
+		font-weight: 600;
+		color: #4C586A;
+}
+
+.contentBlock p{
+		color: #4C586A;
+		line-height: 1.5em;
+}
+
+.contentBlock a{
+		color: #CA6A76;
+}
+
+.contentBlock a:hover {
+		color: #4C586A;
+}
+
+.contentBlock p a::after {
+	content: " \1F517\ ";
+}
+
+.contentBlock li{
+		color: #4C586A;
+		line-height: 1.5em;
+}
+
+/* sub block (img) */
+
+.subBlock{
+		overflow: hidden;
+}
+
+.subBlock img{
+		max-width: 100px;
+		height: auto;
+		float: left;
+		margin: 1em /*up*/ 1em /*right*/ 1em 0;
+}
+
+/* back to top button */
+
+#pageTop {
+	position: fixed;
+	bottom: 5em;
+	right: 5em;
+}
+
+#pageTop i {
+	padding-top: 2em;
+}
+
+#pageTop a {
+	display: block;
+	z-index: 999;
+	padding: 1.3em 0.5em 0 0.5em;
+	border-radius: 50%;
+	width: 5em;
+	height: 5em;
+	background-color: #CA6A76;
+	font-weight: 600;
+	text-align: center;
+}
+
+#pageTop a:hover {
+	opacity: 0.7;
+}
+
+/* footer */
+
+.footer{
+		text-align: center;
+		margin: 0/*up*/ 0 1.5em/*down*/ 0;
+}
