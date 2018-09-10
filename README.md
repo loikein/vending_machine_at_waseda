@@ -16,7 +16,7 @@ RW
 | subBlock      | div     |
 | footer        | footer  |
 
-* The ./style.css file highly depends on class selectors! *
+** The ./style.css file highly depends on class selectors! **
 
 ## html ids
 Most ids are only used as anchors, unique throughout all pages. 
@@ -25,4 +25,5 @@ Exception: a < p > tag with id \#pageTop is used by ./js/backToTop.js in every p
 
 ## license 
 CC0 1.0 Universal
-See file: LICENSE
+
+See file: LICENSE 
