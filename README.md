@@ -1,7 +1,7 @@
 # About this project  
 
 ## preview  
-![preview the index page](https://htmlpreview.github.io/?https://github.com/loikein/vending_machine_at_waseda/blob/master/index.html)  
+[preview the index page](https://htmlpreview.github.io/?https://github.com/loikein/vending_machine_at_waseda/blob/master/index.html)  
 
 ## author
 loikein == RW
