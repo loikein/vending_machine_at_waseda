@@ -1,7 +1,10 @@
-# About this project
+# About this project  
+
+## preview  
+![preview the index page](https://htmlpreview.github.io/?https://github.com/loikein/vending_machine_at_waseda/blob/master/index.html)  
 
 ## author
-RW
+loikein == RW
 
 ## html classes
 | class         | tag     |
@@ -21,9 +24,7 @@ RW
 ## html ids
 Most ids are only used as anchors, unique throughout all pages. 
 
-Exception: a < p > tag with id \#pageTop is used by ./js/backToTop.js in every page. 
+Exception: a `<p>` tag with id `#pageTop` is used by `./js/backToTop.js` in every page. 
 
 ## license 
 CC0 1.0 Universal
-
-See file: LICENSE 
