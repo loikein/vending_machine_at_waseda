@@ -29,3 +29,7 @@ Exception: a `<p>` tag with id `#pageTop` is used by `./js/backToTop.js` in ever
 ## license
 
 CC0 1.0 Universal
+
+## Notes from back then
+
+[notes: vending machines @ waseda https://github.com/loikein/vending_machine_at_waseda](https://gist.github.com/loikein/5b30b01e22b186aabe161c96729a7f79)
